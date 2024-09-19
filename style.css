@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh ;
+    background: linear-gradient(#ececec , #ececeb);
+    
+
+}
+
+.card-list .card-item .card-link {
+   user-select: none;
+    display:block;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.05)  ;
+    transition: 0.2s ease;
+}
+
+.card-list .card-item .card-link:hovar{
+    border-color: #5372f0;
+
+}
+
+ .card-list .card-link .card-image {
+    width:100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+
+ }
+
+ .card-list .card-link .badge {
+    color: #5372f0;
+    padding: 8px 16px ;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 16px 0 18px;
+    background: #dde4ff;
+    width: fit-content;
+    border-radius: 50px;
+ }
+
+ .card-list .card-link .badge.Developer {
+    color:green ;
+    background:white ;
+ }
+
+ .card-list .card-link .badge.Designer {
+    color:red;
+    background:white ;
+ }
+ .card-list .card-link .badge.Gamer {
+    color:gray ;
+    background:white ;
+ }
+ .card-list .card-link .badge.Programer {
+    color:tomato;
+    background:white ;
+ }
+ .card-list .card-link .badge.Groupstudy {
+    color:rgb(73, 199, 42) ;
+    background:rgb(255, 255, 255);
+ }
+ .card-list .card-link .badge.zymerboy {
+   color:rgb(39, 6, 129) ;
+   background:rgb(255, 255, 255);
+}
+.card-list .card-link .badge.time {
+   color:rgb(152, 42, 199) ;
+   background:rgb(255, 255, 255);
+}
+ 
+
+ .card-list .card-link .card-title {
+    font-size: 1.19rem;
+    color: #000;
+    font-weight: 600;
+
+ }
+
+ .card-list .card-link .card-button {
+    height: 35px;
+    width: 35px;
+    color: #5372f0;
+    border-radius: 50%;
+    margin: 30px 0 5px;
+    border: 2px solid #5372f0;
+    background: none ;
+    cursor: pointer;
+    transform: rotate(-45deg);
+    transition: 0.4s ease;
+ }
+
+ .card-list .card-link:hover .card-button {
+    color: #fff;
+    background: #5372f0;
+ }
+
+ .head{
+   color: blueviolet;
+   text-align: center;
+   margin-bottom: 100px;
+
+ }
+ .video{
+   width: 500px;
+   height: 400px;
+ }
+
+ .video{
+height: 300px;
+width: 400px;
+ }# project-1
